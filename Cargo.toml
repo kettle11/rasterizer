@@ -1,0 +1,12 @@
+[package]
+name = "rasterizer"
+version = "0.1.0"
+edition = "2018"
+license = "Creative Commons Zero v1.0 Universal"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kmath = {git = "https://github.com/kettle11/kmath", branch = "main"}
+
+[dev-dependencies]
+minifb = "0.19.3"
