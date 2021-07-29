@@ -1,5 +1,5 @@
 use kmath::{Extend, Quaternion};
-use rasterizer_new::*;
+use rasterizer::*;
 
 struct MyPipeline {
     view_projection: Mat4,

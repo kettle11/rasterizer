@@ -1,5 +1,5 @@
 use kmath::Extend;
-use rasterizer_new::*;
+use rasterizer::*;
 
 struct MyPipeline {}
 
